@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
+
 import Navbar from "@/components/navbar";
+import Cursor from "@/components/custom-cursor";
 
 import { Roboto_Condensed } from "next/font/google";
 
@@ -20,8 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-light  text-gray dark:bg-gray dark:text-light ${font.className}`}
+        className={`bg-[#f1f7f7]  text-gray dark:bg-gray dark:text-light select-none ${font.className}`}
       >
+        <Cursor />
         <Navbar />
         {children}
       </body>

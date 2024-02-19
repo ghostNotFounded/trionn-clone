@@ -19,13 +19,13 @@ const Hero = () => {
       </Magnetic>
 
       <div className="flex justify-between items-center w-full px-24 bottom-10 absolute">
-        <button className="border-[2px] border-lightblue text-lightblue font-semibold text-xl px-10 py-5 rounded-full">
+        <button className="border-[2px] border-slate-700 text-slate-700 dark:border-lightblue dark:text-lightblue font-semibold text-xl px-10 py-5 rounded-full">
           Explore work
         </button>
 
         <button className="px-16 py-10 rounded-full">Explore work</button>
 
-        <button className="border-[2px] border-lightblue text-lightblue font-semibold text-xl px-10 py-5 rounded-full">
+        <button className="border-[2px] border-slate-700 text-slate-700 dark:border-lightblue dark:text-lightblue font-semibold text-xl px-10 py-5 rounded-full">
           Get in touch
         </button>
       </div>

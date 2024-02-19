@@ -20,13 +20,17 @@ const Navbar = () => {
 
       {/* Dark mode and audio control */}
       <div className="flex space-x-2">
-        <Control onclick="themeSwitch">
-          <IoSunny size={20} />
-        </Control>
+        <Control
+          onclick="themeSwitch"
+          activeIcon={<IoSunny size={20} />}
+          inactiveIcon={<IoMoonSharp size={20} />}
+        />
 
-        <Control onclick="volumeSwitch">
-          <CgLoadbarSound size={20} />
-        </Control>
+        <Control
+          onclick="volumeSwitch"
+          activeIcon={<CgLoadbarSound size={20} />}
+          inactiveIcon={<IoMoonSharp size={20} />}
+        />
       </div>
 
       {/* Popup menu */}
