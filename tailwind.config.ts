@@ -11,7 +11,8 @@ const config: Config = {
     extend: {
       colors: {
         gray: "#121315",
-        light: "#eef3f3",
+        light: "#e0eeee",
+        lightblue: "#b2e3e3",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

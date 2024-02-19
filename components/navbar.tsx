@@ -7,7 +7,7 @@ import Control from "@/components/ui/control";
 
 const Navbar = () => {
   return (
-    <header className="py-10 px-24 flex justify-between">
+    <header className="py-10 px-24 flex justify-between absolute top-0 left-0 right-0">
       {/* Trionn logo as image */}
       <Image
         src={"/logo.svg"}
