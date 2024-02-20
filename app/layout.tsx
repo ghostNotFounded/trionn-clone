@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 
-import Navbar from "@/components/navbar";
-import Cursor from "@/components/custom-cursor";
-
 import { Roboto_Condensed } from "next/font/google";
 
 const font = Roboto_Condensed({ subsets: ["latin"] });
@@ -24,8 +21,6 @@ export default function RootLayout({
       <body
         className={`bg-[#f1f7f7]  text-gray dark:bg-gray dark:text-light select-none ${font.className}`}
       >
-        <Cursor />
-        <Navbar />
         {children}
       </body>
     </html>
